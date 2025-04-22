@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+    background-color: #287396;
+}
+
+/* Table styles */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #000;
+    color:black;
+    background-color: yellow;
+    text-align: left;
+}
+.price {
+    text-align: right;
+}
+/* Heading styles */
+h1 {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Return link styles */
+.return-link {
+    text-align: center;
+    margin: 20px;
+}
+
+.return-link a {
+    color: blue;
+    text-decoration: none;
+}
+
+.return-link a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+#zdjheader-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#zdjheader-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#textheader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
