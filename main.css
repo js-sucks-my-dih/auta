@@ -1,0 +1,37 @@
+/* Header styles */
+header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#zdjheader-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#zdjheader-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#textheader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Footer styles */
+#stopa {
+    text-align: center;
+    margin-top: 20px;
+} 
